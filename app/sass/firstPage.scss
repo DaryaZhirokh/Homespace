@@ -118,182 +118,193 @@ nav {
 /* MAINSPACE */
 
 .main-space {
-/* 	// height: 268px;
-background-image: linear-gradient(0deg, #ffffff 0%, #e1e6ec 53%, #b9c3cc 99%);
-border: 1px solid #ffffff; */
+	background-image: linear-gradient(0deg, #ffffff 0%, #e1e6ec 53%, #b9c3cc 99%);
+	border: 1px solid #ffffff;
 }
-
 
 .banner {
-	/* background-color: rgba(255,255,255,0);
-	border: 1px solid #ffffff;
-	background-image: linear-gradient(0deg, #ffffff 27%, #e0dada 100%); */
-	margin-left: 12%;
-	margin-right: 12%;
-	margin-top: 25px;
-	height: 100%;
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: end;
-    border-radius: 20px;
-   /*  border: solid 5px #d7d8d9; */
-    box-shadow: inset 0px 0px 60px #dfecf4;
-}
-
-.search-form {
-	background-image: url('../../images/search-map.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 340px;
-	width: 410px;
-	margin: 11px;
-	position: relative;
-}
-
-.banner-image {
-	margin: 11px;
-	width: 490px;
-	height: 430px;
-}
-
-@media (max-width: 1230px) {
-	.banner {
-		justify-content: center;
-	}
+	height: 500px;
+	background-image: linear-gradient(0deg, #ffffff 27%, #e0dada 100%);
+	background-color: rgba(255,255,255,0);
+	margin-top: 20px;
+	margin-left: 11%;
+	margin-right: 11%;
+	box-shadow: 0 0 25px #ddebf4 inset;
+    border-radius: 15px;
 }
 
 
-.dates-field {
-	border: transparent;
-	display: flex;
-	margin: 80px 20px 0 20px;
-}
 
-.labels {
-	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+// .banner {
+// 	/* background-color: rgba(255,255,255,0);
+// 	border: 1px solid #ffffff;
+// 	background-image: linear-gradient(0deg, #ffffff 27%, #e0dada 100%); */
+// 	margin-left: 12%;
+// 	margin-right: 12%;
+// 	margin-top: 25px;
+// 	height: 100%;
+// 	display: flex;
+// 	flex-wrap: wrap;
+//     justify-content: space-between;
+//     align-items: end;
+//     border-radius: 20px;
+//    /*  border: solid 5px #d7d8d9; */
+//     box-shadow: inset 0px 0px 60px #dfecf4;
+// }
 
-	 label {
-	 	font-size: 12px;
-		color: #000000;
-		font-family: "Arial";
-		font-weight: bold;
-	} 
-}
+// .search-form {
+// 	background-image: url('../../images/search-map.png');
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	height: 340px;
+// 	width: 410px;
+// 	margin: 11px;
+// 	position: relative;
+// }
 
-.city-label {
-	margin-top: 7px;
-}
+// .banner-image {
+// 	margin: 11px;
+// 	width: 490px;
+// 	height: 430px;
+// }
 
-.dep-label {
-	margin-bottom: 7px;
-}
+// @media (max-width: 1230px) {
+// 	.banner {
+// 		justify-content: center;
+// 	}
+// }
 
-.inputs {
-	display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+
+// .dates-field {
+// 	border: transparent;
+// 	display: flex;
+// 	margin: 80px 20px 0 20px;
+// }
+
+// .labels {
+// 	display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+
+// 	 label {
+// 	 	font-size: 12px;
+// 		color: #000000;
+// 		font-family: "Arial";
+// 		font-weight: bold;
+// 	} 
+// }
+
+// .city-label {
+// 	margin-top: 7px;
+// }
+
+// .dep-label {
+// 	margin-bottom: 7px;
+// }
+
+// .inputs {
+// 	display: flex;
+//     flex-direction: column;
+//     margin-left: 10px;
     
-    input {
-    	height: 25px;
-    	width: 155px;
-    	font-size: 12px;
-		color: #787575;
-		font-family: "Arial";
-    	margin-bottom: 20px;
+//     input {
+//     	height: 25px;
+//     	width: 155px;
+//     	font-size: 12px;
+// 		color: #787575;
+// 		font-family: "Arial";
+//     	margin-bottom: 20px;
 
-		&:first-child {
-			width: 270px;
-		}
+// 		&:first-child {
+// 			width: 270px;
+// 		}
 
-		&:last-child {
-			margin-bottom: 0;
-		}
-    }
-}
+// 		&:last-child {
+// 			margin-bottom: 0;
+// 		}
+//     }
+// }
 
-.checkboxes-field {
-	margin: 10px 0 0 120px;
-	display: flex;
+// .checkboxes-field {
+// 	margin: 10px 0 0 120px;
+// 	display: flex;
 
-	div {
-		margin-right: 10px;
-	}
+// 	div {
+// 		margin-right: 10px;
+// 	}
 
-	label {
-		font-size: 12px;
-		color: #26323a;
-		font-family: "Arial";
-		vertical-align: top;
-	}
-	input {
-		margin: 0;
-	}
-}
+// 	label {
+// 		font-size: 12px;
+// 		color: #26323a;
+// 		font-family: "Arial";
+// 		vertical-align: top;
+// 	}
+// 	input {
+// 		margin: 0;
+// 	}
+// }
 
-.accomodation-legend {
-		font-size: 12px;
-		color: #000000;
-		font-family: "Arial";
-		font-weight: bold;
-		margin: 25px 0 10px 20px;
-}
+// .accomodation-legend {
+// 		font-size: 12px;
+// 		color: #000000;
+// 		font-family: "Arial";
+// 		font-weight: bold;
+// 		margin: 25px 0 10px 20px;
+// }
 
-.search-button {
-	width: 119px;
-	height: 38px;
-	border-radius: 8px;
-	filter: drop-shadow(0.261px 2.989px 2px rgba(0,0,0,0.69));
-	background-image: linear-gradient(0deg, #272d35 0%, #414f5d 97%, #6a88a4 100%);
-	border: 1px solid #293039;
-	font-size: 24px;
-	letter-spacing: -1px;
-	line-height: 24px;
-	color: #ffffff;
-	font-family: "Oregon LD OExtra Bold";
-	font-weight: 800;
-	text-align: center;
-	margin-left: 120px;
+// .search-button {
+// 	width: 119px;
+// 	height: 38px;
+// 	border-radius: 8px;
+// 	filter: drop-shadow(0.261px 2.989px 2px rgba(0,0,0,0.69));
+// 	background-image: linear-gradient(0deg, #272d35 0%, #414f5d 97%, #6a88a4 100%);
+// 	border: 1px solid #293039;
+// 	font-size: 24px;
+// 	letter-spacing: -1px;
+// 	line-height: 24px;
+// 	color: #ffffff;
+// 	font-family: "Oregon LD OExtra Bold";
+// 	font-weight: 800;
+// 	text-align: center;
+// 	margin-left: 120px;
 
-}
+// }
 
-.ribbon {
-    position: absolute;
+// .ribbon {
+//     position: absolute;
    
-    top: 10px;
-    width: 442px;
-    height: 60px;
-    right: 1px;
-}
+//     top: 10px;
+//     width: 442px;
+//     height: 60px;
+//     right: 1px;
+// }
 
-.ribbon-sign {
-	font-size: 36px;
-	color: white;
-	font-family: "Oregon LD OExtra Black";
-	font-weight: 800;
-	font-style: italic;
-	filter: drop-shadow(0.087px 0.996px 1px rgba(0,0,0,0.55));
-	text-shadow: 0 0 30px #ffffff;
-	margin: 0;
-	position: absolute;
-    top: 25px;
-    left: 35px;
-}
+// .ribbon-sign {
+// 	font-size: 36px;
+// 	color: white;
+// 	font-family: "Oregon LD OExtra Black";
+// 	font-weight: 800;
+// 	font-style: italic;
+// 	filter: drop-shadow(0.087px 0.996px 1px rgba(0,0,0,0.55));
+// 	text-shadow: 0 0 30px #ffffff;
+// 	margin: 0;
+// 	position: absolute;
+//     top: 25px;
+//     left: 35px;
+// }
 
-.search-icon {
-	width: 25px;
-	height: 25px;
-	position: absolute;
-	filter: drop-shadow(0.087px 0.996px 0.5px rgba(255,255,255,0.93));
-    top: 30px;
-    right: 20px;
-}
+// .search-icon {
+// 	width: 25px;
+// 	height: 25px;
+// 	position: absolute;
+// 	filter: drop-shadow(0.087px 0.996px 0.5px rgba(255,255,255,0.93));
+//     top: 30px;
+//     right: 20px;
+// }
 
-@media (max-width: 590px) {
+// @media (max-width: 590px) {
 	
-	.search-form {
-		background-image: url('../../images/search-map_small.png');
-	}
-}
+// 	.search-form {
+// 		background-image: url('../../images/search-map_smallest.png');
+// 	}
+// }
