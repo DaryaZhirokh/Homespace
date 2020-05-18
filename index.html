@@ -46,6 +46,42 @@
 		<section class="main-space">
 
 			<div class="banner">
+				<img src="images/ribbon.png" alt="" class="banner_ribbon">
+				<p class="banner_search-sign">Search a Property</p>
+				<img src="images/search-icon.svg" alt="" class="banner_search-icon">
+				<form action="mailto:daraziroh@gmail.com" enctype="text/plain" autocomplete="on" name='search-form' novalidate class="banner_form">
+					<div class="banner_labels">
+						<label for="city" class="city-label">City:</label>
+						<input type="text" id="city" name="city" class="city-input">
+					</div>
+					<div class="banner_labels">
+						<label for="ar-date" class="ar-label">Arrival Date:</label>
+						<input type="date" placeholder="01/12/2020" id="ar-date" name="ar-date" class="ar-input">
+						<img src="images/calendar.svg" alt="" class="calendar">
+					</div>
+					<div class="banner_labels">
+						<label for="dep-date" class="dep-label">Departure Date:</label>
+						<input type="date" placeholder="02/12/2020" id="dep-date" name="dep-date" class="dep-input">
+						<img src="images/calendar.svg" alt="" class="calendar">
+					</div>
+					<p class="accomodation-legend">Accomodation type:</p>
+					<div class="banner_checkboxes">
+						<input type="checkbox" name="hotel" id="hotel"> 
+						<label for="hotel" class="hotel_label">Hotel</label>
+						<input type="checkbox" name="selfservice" id="selfservice">
+						<label for="selfservice">Self servised apartment</label>
+					</div>
+					<div class="banner_checkboxes banner_checkboxes_lastrow">
+						<input type="checkbox" name="bed" id="bed" >
+						<label for="bed" class="breakfast-label">Bed & breakfast</label>
+						<input type="checkbox" name="camping" id="camping">
+						<label for="camping">Camping park</label>
+					</div>
+					<input type="submit" value="Search" class="search-button">
+				</form>
+				<div class="banner_picture"></div>
+				<p class="banner-sign">Lorem Ipsum Dolor Sit Amet ...</p>
+					
 				
 			</div>
 

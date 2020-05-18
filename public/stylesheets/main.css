@@ -11,8 +11,16 @@ body {
 }
 
 @font-face {
+  font-family: "ARBERKLEY";
+  src: url("../../fonts/ARBERKLEY.ttf");
+}
+@font-face {
   font-family: "Oregon_LDO_Extended_Black";
   src: url("../../fonts/Oregon_LDO_Extended_Black.ttf");
+}
+@font-face {
+  font-family: "Oregon_LDO_ExtraBlack";
+  src: url("../../fonts/Oregon_LDO_ExtraBlack.ttf");
 }
 .above-header {
   background-color: #171d23;
@@ -109,14 +117,311 @@ nav ul a {
 }
 
 .banner {
-  height: 500px;
-  background-image: linear-gradient(0deg, #ffffff 27%, #e0dada 100%);
+  height: 465px;
+  background-image: linear-gradient(0deg, #ffffff 27%, #ffffff 100%);
   background-color: rgba(255, 255, 255, 0);
   margin-top: 20px;
   margin-left: 11%;
   margin-right: 11%;
-  box-shadow: 0 0 25px #ddebf4 inset;
+  box-shadow: 0 0 15px 20px #ddebf4 inset;
   border-radius: 15px;
+  position: relative;
+}
+
+.banner_ribbon {
+  position: absolute;
+  top: 17px;
+  left: -20px;
+}
+
+.banner_form {
+  filter: drop-shadow(0.174px 1.992px 1px rgba(0, 0, 0, 0.36));
+  background-color: rgba(181, 212, 229, 0);
+  border: 5px solid #ffffff;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  z-index: 2;
+  width: 400px;
+  height: 347px;
+  background-image: url("../../images/search-map.png");
+}
+
+.banner_picture {
+  background-image: url("../../images/banner-image.png");
+  position: absolute;
+  right: 15px;
+  width: 520px;
+  height: 435px;
+  top: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.banner_labels {
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.banner_labels:first-of-type {
+  margin-top: 78px;
+}
+.banner_labels:nth-child(3) {
+  margin-bottom: 26px;
+}
+.banner_labels label {
+  font-size: 12px;
+  color: #010101;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.accomodation-legend {
+  margin-left: 20px;
+  margin-bottom: 9px;
+  margin-top: 0;
+  font-size: 12px;
+  color: #010101;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.city-label {
+  margin-right: 80px;
+}
+
+.ar-label {
+  margin-right: 36px;
+}
+
+.dep-label {
+  margin-right: 16px;
+}
+
+.banner_checkboxes {
+  margin-left: 125px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+}
+.banner_checkboxes label {
+  font-size: 12px;
+  color: #26323a;
+  font-family: "Arial";
+}
+.banner_checkboxes input {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  margin-right: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #7a9fbb;
+}
+
+.banner_checkboxes_lastrow {
+  margin-bottom: 20px;
+}
+
+.hotel_label {
+  margin-right: 77px;
+}
+
+.breakfast-label {
+  margin-right: 20px;
+}
+
+.search-button {
+  margin-left: 125px;
+  width: 119px;
+  height: 38px;
+  border-radius: 8px;
+  filter: drop-shadow(0.261px 2.989px 2px rgba(0, 0, 0, 0.69));
+  background-image: linear-gradient(0deg, #272d35 0%, #414f5d 97%, #6a88a4 100%);
+  border: 1px solid #293039;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: Oregon_LDO_ExtraBlack;
+  font-weight: 800;
+  text-align: center;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(0, 0, 0, 0.41));
+}
+
+.city-input {
+  /* 	background-color: rgba(255,255,255,0); */
+  border: 1px solid #7a9fbb;
+  width: 257px;
+  height: 25px;
+  font-size: 12px;
+  color: #26323a;
+  font-family: "Arial";
+}
+
+.calendar {
+  position: absolute;
+  width: 16px;
+  height: 18px;
+  left: 240px;
+}
+
+.ar-input, .dep-input {
+  width: 147px;
+  height: 25px;
+  border: 1px solid #7a9fbb;
+  font-size: 12px;
+  color: #26323a;
+  font-family: "Arial";
+  padding-left: 5px;
+}
+
+.banner_ribbon {
+  height: 60px;
+  width: 447px;
+  z-index: 3;
+}
+
+.banner_search-sign {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Oregon_LDO_ExtraBlack";
+  font-weight: 800;
+  font-style: italic;
+  filter: drop-shadow(0.087px 0.996px 1px rgba(0, 0, 0, 0.55));
+  position: absolute;
+  z-index: 4;
+  left: 38px;
+  top: 37px;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.banner_search-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 40px;
+  left: 382px;
+  z-index: 4;
+}
+
+.banner-sign {
+  font-size: 36px;
+  line-height: 14px;
+  color: #16191c;
+  font-family: ARBERKLEY;
+  position: absolute;
+  z-index: 4;
+  margin: 0;
+  top: 407px;
+  left: 18px;
+}
+
+@media (max-width: 1224px) {
+  .banner {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 1050px) {
+  .banner_picture {
+    width: 455px;
+  }
+}
+@media (max-width: 987px) {
+  .banner_picture {
+    width: 355px;
+    top: 45px;
+    right: 65px;
+  }
+}
+@media (max-width: 925px) {
+  .main-space {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner {
+    height: 748px;
+    width: 513px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .banner_picture {
+    width: 380px;
+    right: unset;
+    top: 405px;
+    left: 30px;
+  }
+}
+@media (max-width: 675px) {
+  .banner {
+    width: 360px;
+    height: 670px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .banner-sign {
+    font-size: 22px;
+  }
+
+  .banner_form {
+    width: 300px;
+  }
+
+  .banner_ribbon {
+    width: 345px;
+    left: -14PX;
+  }
+
+  .banner_search-sign {
+    font-size: 30px;
+    letter-spacing: 0px;
+  }
+
+  .banner_search-icon {
+    left: 270px;
+  }
+
+  .city-input {
+    width: 154px;
+  }
+
+  .banner_checkboxes {
+    margin-left: 18px;
+  }
+
+  .banner_picture {
+    width: 295px;
+  }
+}
+@media (max-width: 380px) {
+  .banner_picture {
+    width: 240px;
+  }
+
+  .banner-sign {
+    font-size: 15px;
+    left: 60px;
+    top: 400px;
+  }
+
+  .banner_form {
+    width: 270px;
+  }
+
+  .banner_ribbon {
+    width: 312px;
+  }
+
+  .banner_labels, .banner_checkboxes, .accomodation-legend {
+    margin-left: 4px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
