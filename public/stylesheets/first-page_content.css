@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "Oregon LDO";
+  src: url("../../fonts/Oregon LDO.ttf");
+}
+@font-face {
+  font-family: "Oregon_LDO_ExtraBlack";
+  src: url("../../fonts/Oregon_LDO_ExtraBlack.ttf");
+}
+.content {
+  margin-left: 11%;
+  margin-right: 11%;
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.left-part_welcome-word {
+  width: 286px;
+  height: 286px;
+  border-radius: 2px;
+  filter: drop-shadow(0.174px 1.992px 1px rgba(0, 0, 0, 0.1));
+  background-color: #d7dde3;
+  border: 1px solid #bbc9d5;
+  margin-bottom: 14px;
+}
+
+.welcome-word_text, .welcome-word_ref {
+  font-size: 12px;
+  line-height: 18px;
+  color: #2a2929;
+  font-family: "Arial";
+  margin-bottom: 17px;
+  margin-left: 15px;
+}
+
+.welcome-word_ref {
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+.welcome-word_ref a {
+  color: #7bb2d8;
+  text-decoration: none;
+}
+
+.welcome-word_title {
+  font-size: 24px;
+  line-height: 14px;
+  color: #090b0d;
+  font-family: "Oregon LDO";
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.left-part_click-section {
+  background-image: url("../../images/click_picture.png");
+  height: 221px;
+  width: 289px;
+  margin-top: 0;
+}
+.left-part_click-section p {
+  font-size: 24px;
+  line-height: 14px;
+  color: #ffffff;
+  font-family: "Oregon LDO";
+  font-weight: bold;
+  text-align: center;
+  filter: drop-shadow(0.087px 0.996px 1px rgba(0, 0, 0, 0.55));
+  padding-top: 33px;
+  padding-left: 3px;
+  margin-top: 0;
+}
+.left-part_click-section button {
+  filter: drop-shadow(0.087px 0.996px 1px rgba(0, 0, 0, 0.55));
+  background-image: linear-gradient(0deg, #c5e0e9 0%, #e6ecec 58%, #f7f9f9 96%);
+  border: 1px solid rgba(255, 255, 255, 0.43);
+  font-size: 18px;
+  line-height: 14px;
+  color: #424645;
+  font-family: "Oregon LDO";
+  font-weight: bold;
+  text-align: center;
+  width: 144px;
+  height: 38px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: baseline;
+  padding-left: 3px;
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+.click-section_arrows {
+  height: 13px;
+  padding: 0;
+  padding-left: 4px;
+}
+
+.content_right-part {
+  margin-left: 19px;
+  width: 100%;
+  border-radius: 2px;
+  filter: drop-shadow(0.174px 1.992px 1px rgba(0, 0, 0, 0.1));
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #dadcdd;
+}
+
+.right-part_header {
+  height: 40px;
+  background-image: linear-gradient(0deg, #3b4855 0%, #445667 83%);
+  border-radius: 2px;
+  filter: drop-shadow(0.174px 1.992px 1px rgba(0, 0, 0, 0.1));
+  border: 2px solid #dadcdd;
+}
+.right-part_header p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  font-family: "Arial";
+  margin-left: 13px;
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+
+.right-part_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.right-part_content-title {
+  font-size: 12px;
+  line-height: 18px;
+  color: #238acd;
+  font-family: "Arial";
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.right-part_content-text {
+  font-size: 12px;
+  line-height: 18px;
+  color: #afafaf;
+  font-family: "Arial";
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.more-info {
+  width: 86px;
+  height: 24px;
+  border-radius: 2px;
+  background-image: linear-gradient(0deg, #1d3e52 2%, #254c67 3%, #2f7aac 49%, #3e84b8 50%, #63b3e7 98%, #9acff1 99%);
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  font-family: "Arial";
+  filter: drop-shadow(0.087px 0.996px 1px rgba(0, 0, 0, 0.55));
+}
+.more-info img {
+  width: 9px;
+  height: 9px;
+  color: #e7d219;
+}
+
+.right-part_price {
+  background-image: url("../../images/priceform.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 91px;
+  height: 64px;
+  border-radius: 2px;
+  background-image: linear-gradient(0deg, #4d7415 0%, #79ae2d 3%, #9bcf52 50%, #a2d955 50%, #b7ee69 100%);
+  filter: drop-shadow(0.261px 2.989px 2px rgba(0, 0, 0, 0.69));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 15px;
+  flex: none;
+}
+
+.price-from {
+  font-size: 12px;
+  color: #070806;
+  font-family: "Arial";
+  text-align: center;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(255, 255, 255, 0.59));
+  margin: 0;
+  padding-top: 7px;
+}
+
+.per-night {
+  font-size: 12px;
+  color: #070806;
+  font-family: "Arial";
+  text-align: center;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(255, 255, 255, 0.59));
+  margin: 0;
+}
+
+.currency {
+  font-size: 26px;
+  color: #070806;
+  font-family: "Oregon_LDO_ExtraBlack";
+  text-align: center;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(255, 255, 255, 0.59));
+  margin: 0;
+}
+
+.right-part_container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.right-part_picture {
+  /* 	filter: drop-shadow(0.174px 1.992px 1px rgba(0,0,0,0.27));
+  border: 3px solid #f1f7fa; */
+  width: 144px;
+  height: 106px;
+  margin-right: 15px;
+}
+
+@media (max-width: 1224px) {
+  .content {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 987px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content_left-part {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .left-part_welcome-word {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .content_right-part {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .right-part_container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .right-part_content {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=first-page_content.css.map */
