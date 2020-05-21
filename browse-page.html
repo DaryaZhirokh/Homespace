@@ -43,8 +43,323 @@
 			</ul>
 		</nav>
 
+<!-- main-space -->
+		
+<!-- 		<div class="browse"> -->
+		<div class="browse-container">
+<!-- Accomodation -->
+			<div class="accomodation">
+				<p class="accomodation_title">Find accomodation</p>
+				<form class="accomodation_form">
+					<div class="accomodation_labels ">
+						<label for="accomodation_city" class="accomodation_city-label">City:</label>
+						<input type="text" id="accomodation_city" name="accomodation_city" class="accomodation_city-input">
+					</div>
+					<div class="accomodation_labels">
+						<label for="accomodation_ar-date" class="accomodation_ar-label">Arrival Date:</label>
+						<input type="date" placeholder="01/12/2020" id="accomodation_ar-date" name="accomodation_ar-date" class="accomodation_ar-input">
+						<img src="images/calendar.svg" alt="" class="accomodation_calendar">
+					</div>
+					<div class="accomodation_labels">
+						<label for="accomodation_dep-date" class="accomodation_dep-label">Departure Date:</label>
+						<input type="date" placeholder="02/12/2020" id="accomodation_dep-date" name="accomodation_dep-date" class="accomodation_dep-input">
+						<img src="images/calendar.svg" alt="" class="accomodation_calendar">
+					</div>
+				</form>
 
+				<p class="accomodation_title">Accomodation type</p>
+				<form class="accomodation_list">
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_hotel" id="accomodation_hotel" class="accomodation_item-input">
+						<label for="accomodation_hotel" class="accomodation_item-label">Hotel</label>
+					</div>
 
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_bed" id="accomodation_bed" class="accomodation_item-input">
+						<label for="accomodation_hotel" class="accomodation_item-label">Bed & Breakfast</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_selfservice" id="accomodation_selfservice" class="accomodation_item-input">
+						<label for="accomodation_bed" class="accomodation_item-label">Self serviced apartment</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_camping" id="accomodation_camping" class="accomodation_item-input">
+						<label for="accomodation_selfservice" class="accomodation_item-label">Camping park</label>
+					</div>
+				</form>
+				<p class="accomodation_title">Amenties</p>
+				<form class="accomodation_list">
+
+					<div class="accomodation_items-container">					
+						<input type="checkbox" name="accomodation_front-desk" id="accomodation_camping" class="accomodation_item-input">
+						<label for="accomodation_front-desk" class="accomodation_item-label">24-Hour front desk</label>
+					</div>	
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_conference" id="accomodation_conference" class="accomodation_item-input">
+						<label for="accomodation_conference" class="accomodation_item-label">Conference room</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_restaurant" id="accomodation_restaurant" class="accomodation_item-input">
+						<label for="accomodation_restaurant" class="accomodation_item-label">Restaurant</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_bar" id="accomodation_bar" class="accomodation_item-input">
+						<label for="accomodation_bar" class="accomodation_item-label">Bar/Night club</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_spa" id="accomodation_spa" class="accomodation_item-input">
+						<label for="accomodation_spa" class="accomodation_item-label">Spa & Wellness</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_swimming" id="accomodation_swimming" class="accomodation_item-input">
+						<label for="accomodation_swimming" class="accomodation_item-label">Swimming pool</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_fitness" id="accomodation_fitness" class="accomodation_item-input">
+						<label for="accomodation_fitness" class="accomodation_item-label">Fitness</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_disabled" id="accomodation_disabled" class="accomodation_item-input">
+						<label for="accomodation_disabled" class="accomodation_item-label">Disabled facilities</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_bank" id="accomodation_bank" class="accomodation_item-input">
+						<label for="accomodation_bank" class="accomodation_item-label">ATM/bank</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_parking" id="accomodation_parking" class="accomodation_item-input">
+						<label for="accomodation_parking" class="accomodation_item-label">Guest parking</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_room" id="accomodation_room" class="accomodation_item-input">
+						<label for="accomodation_room" class="accomodation_item-label">Room service</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_housekeeping" id="accomodation_housekeeping" class="accomodation_item-input">
+						<label for="accomodation_housekeeping" class="accomodation_item-label">Houskeeping</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_internet" id="accomodation_internet" class="accomodation_item-input">
+						<label for="accomodation_internet" class="accomodation_item-label">Internet</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_minibar" id="accomodation_minibar" class="accomodation_item-input">
+						<label for="accomodation_minibar" class="accomodation_item-label">Minibar</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_conditioning" id="accomodation_conditioning" class="accomodation_item-input">
+						<label for="accomodation_conditioning" class="accomodation_item-label">Air-conditioning</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_breakfast" id="accomodation_breakfast" class="accomodation_item-input">
+						<label for="accomodation_breakfast" class="accomodation_item-label">Breakfast</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_cabel" id="accomodation_cabel" class="accomodation_item-input">
+						<label for="accomodation_cabel" class="accomodation_item-label">Cabel TV</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_telephone" id="accomodation_telephone" class="accomodation_item-input">
+						<label for="accomodation_telephone" class="accomodation_item-label">Telephone</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_cooker" id="accomodation_cooker" class="accomodation_item-input">
+						<label for="accomodation_cooker" class="accomodation_item-label">Cooker</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_microwave" id="accomodation_microwave" class="accomodation_item-input">
+						<label for="accomodation_microwave" class="accomodation_item-label">Microwave</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_iron" id="accomodation_iron" class="accomodation_item-input">
+						<label for="accomodation_iron" class="accomodation_item-label">Iron</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_kettle" id="accomodation_kettle" class="accomodation_item-input">
+						<label for="accomodation_kettle" class="accomodation_item-label">Kettle</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_toaster" id="accomodation_toaster" class="accomodation_item-input">
+						<label for="accomodation_toaster" class="accomodation_item-label">Toaster</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_fridge" id="accomodation_fridge" class="accomodation_item-input">
+						<label for="accomodation_fridge" class="accomodation_item-label">Fridge</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_dryer" id="accomodation_dryer" class="accomodation_item-input">
+						<label for="accomodation_dryer" class="accomodation_item-label">Hair dryer</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_washing" id="accomodation_washing" class="accomodation_item-input">
+						<label for="accomodation_washing" class="accomodation_item-label">Washing machine/dryer</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_player" id="accomodation_player" class="accomodation_item-input">
+						<label for="accomodation_player" class="accomodation_item-label">DVD player</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_pets" id="accomodation_pets" class="accomodation_item-input">
+						<label for="accomodation_pets" class="accomodation_item-label">Pets allowed</label>
+					</div>
+
+					<div class="accomodation_items-container">
+						<input type="checkbox" name="accomodation_smoking" id="accomodation_smoking" class="accomodation_item-input">
+						<label for="accomodation_smoking" class="accomodation_item-label">Non-smoking only</label>
+					</div>
+				</form>
+			</div>
+
+<!-- Offers -->
+			<div class="offers">
+				<section class="offers_container">
+					<div class="offers_picture">
+						<img src="images/london.png" alt="">
+					</div>
+					<div class="offers_content">
+						<p class="offers_content-title">London Bridge Hotel</p>
+						<p class="offers_content-text">The independent 4-star London Bridge Hotel is as ideal for the leisure visitor seeking to enjoy the delights of central London as it is for the business executive.</p>
+						<button class="offers_more-info">More info<img src="images/plus.svg"></button>
+					</div>
+					<div class="offers_price-box">
+						<p class="offers_price-from">price from</p>
+						<span class="offers_currency">£ 95</span>
+						<p class="offers_per-night">per night</p>
+					</div>
+				</section>
+
+				<section class="offers_container">
+					<div class="offers_picture">
+						<img src="images/arthouse.png" alt="">
+					</div>
+					<div class="offers_content">
+						<p class="offers_content-title">The art House</p>
+						<p class="offers_content-text">The Art House is a luxurious Cotwolds townhouse, a wonderful low built Georgian property set in the 'Cotswolds Area of Outstanding Natural Beauty', the Tetbury of today is one of the most beautiful Cotswold towns. </p>
+						<button class="more-info">More info<img src="images/plus.svg"></button>
+					</div>
+					<div class="offers_price-box">
+						<p class="offers_price-from">price from</p>
+						<span class="offers_currency">£ 127.5</span>
+						<p class="offers_per-night">per night</p>
+					</div>
+				</section>
+
+				<section class="offers_container">
+					<div class="offers_picture">
+						<img src="images/hotel.png" alt="">
+					</div>
+					<div class="offers_content">
+						<p class="offers_content-title">41 Hotel</p>
+						<p class="offers_content-text">Work commenced late 1999 in the building of London's smallest five star hotel comprising of only 30 deluxe rooms, an Executive Lounge with glass conservatory roof and Boardroom offering video-conferencing facilities. </p>
+						<button class="more-info">More info<img src="images/plus.svg"></button>
+					</div>
+					<div class="offers_price-box">
+						<p class="offers_price-from">price from</p>
+						<span class="offers_currency">£ 275</span>
+						<p class="offers_per-night">per night</p>
+					</div>
+				</section>
+				<section class="offers_container">
+					<div class="offers_picture">
+						<img src="images/london.png" alt="">
+					</div>
+					<div class="offers_content">
+						<p class="offers_content-title">London Bridge Hotel</p>
+						<p class="offers_content-text">The independent 4-star London Bridge Hotel is as ideal for the leisure visitor seeking to enjoy the delights of central London as it is for the business executive.</p>
+						<button class="offers_more-info">More info<img src="images/plus.svg"></button>
+					</div>
+					<div class="offers_price-box">
+						<p class="offers_price-from">price from</p>
+						<span class="offers_currency">£ 95</span>
+						<p class="offers_per-night">per night</p>
+					</div>
+				</section>
+
+				<section class="offers_container">
+					<div class="offers_picture">
+						<img src="images/arthouse.png" alt="">
+					</div>
+					<div class="offers_content">
+						<p class="offers_content-title">The art House</p>
+						<p class="offers_content-text">The Art House is a luxurious Cotwolds townhouse, a wonderful low built Georgian property set in the 'Cotswolds Area of Outstanding Natural Beauty', the Tetbury of today is one of the most beautiful Cotswold towns. </p>
+						<button class="more-info">More info<img src="images/plus.svg"></button>
+					</div>
+					<div class="offers_price-box">
+						<p class="offers_price-from">price from</p>
+						<span class="offers_currency">£ 127.5</span>
+						<p class="offers_per-night">per night</p>
+					</div>
+				</section>
+
+				<section class="offers_container">
+					<div class="offers_picture">
+						<img src="images/hotel.png" alt="">
+					</div>
+					<div class="offers_content">
+						<p class="offers_content-title">41 Hotel</p>
+						<p class="offers_content-text">Work commenced late 1999 in the building of London's smallest five star hotel comprising of only 30 deluxe rooms, an Executive Lounge with glass conservatory roof and Boardroom offering video-conferencing facilities. </p>
+						<button class="more-info">More info<img src="images/plus.svg"></button>
+					</div>
+					<div class="offers_price-box">
+						<p class="offers_price-from">price from</p>
+						<span class="offers_currency">£ 275</span>
+						<p class="offers_per-night">per night</p>
+					</div>
+				</section>
+
+				<section class="offers_container">
+					<div class="offers_picture">
+						<img src="images/hotel.png" alt="">
+					</div>
+					<div class="offers_content">
+						<p class="offers_content-title">41 Hotel</p>
+						<p class="offers_content-text">Work commenced late 1999 in the building of London's smallest five star hotel comprising of only 30 deluxe rooms, an Executive Lounge with glass conservatory roof and Boardroom offering video-conferencing facilities. </p>
+						<button class="more-info">More info<img src="images/plus.svg"></button>
+					</div>
+					<div class="offers_price-box">
+						<p class="offers_price-from">price from</p>
+						<span class="offers_currency">£ 275</span>
+						<p class="offers_per-night">per night</p>
+					</div>
+				</section>
+				<section class="offers_page-list">
+					<button class="offer_page-number">1</button>
+					<button class="offer_page-number">2</button>
+					<button class="offer_page-number">3</button>
+				</section>
+			</div>
+		</div>
+			
+<!-- 		</div> -->
 <!-- footer -->
 		<footer class='lower-menu'>
 				<nav class="lower-menu_nav">

@@ -1,0 +1,162 @@
+.offers {
+  margin-left: 19px;
+  width: 100%;
+  border-radius: 2px;
+  filter: drop-shadow(0.174px 1.992px 1px rgba(0, 0, 0, 0.1));
+  background-color: white;
+  border: 1px solid #dadcdd;
+}
+
+.offers_container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 18px;
+  margin-bottom: 35px;
+}
+.offers_container:first-of-type {
+  margin-top: 15px;
+}
+.offers_container:last-child {
+  margin-bottom: 20px;
+}
+
+.offers_picture {
+  /* 	filter: drop-shadow(0.174px 1.992px 1px rgba(0,0,0,0.27));
+  border: 3px solid #f1f7fa; */
+  width: 144px;
+  height: 106px;
+  margin-right: 15px;
+}
+.offers_picture img {
+  width: 144px;
+  height: 106px;
+}
+
+.offers_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.offers_content-title {
+  font-size: 12px;
+  line-height: 18px;
+  color: #238acd;
+  font-family: "Arial";
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.offers_content-text {
+  font-size: 12px;
+  line-height: 18px;
+  color: #afafaf;
+  font-family: "Arial";
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.offers_more-info {
+  width: 86px;
+  height: 24px;
+  border-radius: 2px;
+  background-image: linear-gradient(0deg, #1d3e52 2%, #254c67 3%, #2f7aac 49%, #3e84b8 50%, #63b3e7 98%, #9acff1 99%);
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  font-family: "Arial";
+  filter: drop-shadow(0.087px 0.996px 1px rgba(0, 0, 0, 0.55));
+}
+.offers_more-info img {
+  width: 9px;
+  height: 9px;
+  color: #e7d219;
+}
+
+.offers_price-box {
+  background-image: url("../../images/priceform.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 91px;
+  height: 64px;
+  border-radius: 2px;
+  background-image: linear-gradient(0deg, #4d7415 0%, #79ae2d 3%, #9bcf52 50%, #a2d955 50%, #b7ee69 100%);
+  filter: drop-shadow(0.261px 2.989px 2px rgba(0, 0, 0, 0.69));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 15px;
+  flex: none;
+}
+
+.offers_price-from {
+  font-size: 12px;
+  color: #070806;
+  font-family: "Arial";
+  text-align: center;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(255, 255, 255, 0.59));
+  margin: 0;
+  padding-top: 7px;
+}
+
+.offers_per-night {
+  font-size: 12px;
+  color: #070806;
+  font-family: "Arial";
+  text-align: center;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(255, 255, 255, 0.59));
+  margin: 0;
+}
+
+.offers_currency {
+  font-size: 26px;
+  color: #070806;
+  font-family: "Oregon_LDO_ExtraBlack";
+  text-align: center;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(255, 255, 255, 0.59));
+  margin: 0;
+}
+
+.offer_page-number {
+  width: 19px;
+  height: 19px;
+  border-radius: 2px;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(0, 0, 0, 0.4));
+  background-color: #cfcfcf;
+  font-size: 12px;
+  color: #238acd;
+  font-family: "Arial";
+  font-weight: bold;
+  text-align: center;
+  padding-left: 4px;
+}
+.offer_page-number:active {
+  width: 19px;
+  height: 19px;
+  border-radius: 2px;
+  background-image: linear-gradient(0deg, #85c32b 0%, #a9d171 85%);
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Arial";
+  font-weight: bold;
+  text-align: center;
+  padding-left: 4px;
+}
+.offer_page-number:focus {
+  outline-color: transparent;
+  background-image: linear-gradient(0deg, #85c32b 0%, #a9d171 85%);
+  color: #ffffff;
+}
+.offer_page-number:visited {
+  background-image: linear-gradient(0deg, #85c32b 0%, #a9d171 85%);
+}
+
+.offers_page-list {
+  margin-left: 23px;
+  margin-bottom: 17px;
+}
+
+/*# sourceMappingURL=offers.css.map */

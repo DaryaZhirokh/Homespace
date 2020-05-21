@@ -1,0 +1,101 @@
+.browse-container {
+  padding-left: 11%;
+  padding-right: 11%;
+  padding-top: 25px;
+  background-image: linear-gradient(0deg, #ffffff 0%, #e1e6ec 80%, #b9c3cc 99%);
+  display: flex;
+}
+
+.accomodation {
+  width: 247px;
+  border-radius: 2px;
+  filter: drop-shadow(0.174px 1.992px 1px rgba(0, 0, 0, 0.36));
+  background-image: linear-gradient(0deg, #a5d1eb 0%, #dbf1ff 96%);
+  border: 5px solid #ffffff;
+}
+
+.accomodation_form {
+  margin-left: 10px;
+  position: relative;
+}
+
+.accomodation_title {
+  margin-left: 12px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #070806;
+  font-family: "Arial";
+  font-weight: bold;
+  filter: drop-shadow(0.087px 0.996px 0px rgba(255, 255, 255, 0.59));
+}
+
+.accomodation_labels {
+  display: block;
+}
+.accomodation_labels:last-child {
+  margin-top: 21px;
+  margin-bottom: 45px;
+}
+.accomodation_labels label {
+  font-size: 12px;
+  color: #010101;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.accomodation_city-label {
+  margin-top: 25px;
+  margin-bottom: 4px;
+}
+
+.accomodation_ar-label {
+  margin-right: 10px;
+  margin-bottom: 4px;
+}
+
+.accomodation_city-input {
+  border: 1px solid #7a9fbb;
+  width: 213px;
+  height: 25px;
+  font-size: 12px;
+  color: #26323a;
+  font-family: "Arial";
+  margin-bottom: 18px;
+}
+
+.accomodation_ar-input, .accomodation_dep-input {
+  width: 152px;
+  height: 25px;
+  border: 1px solid #7a9fbb;
+  font-size: 12px;
+  color: #26323a;
+  font-family: "Arial";
+  padding-left: 5px;
+}
+
+.accomodation_calendar {
+  position: absolute;
+  width: 16px;
+  height: 18px;
+  left: 139px;
+  margin-top: 4px;
+}
+
+.accomodation_list {
+  margin-left: 44px;
+}
+
+.accomodation_item-input {
+  background-color: white;
+  border: 1px solid #7a9fbb;
+  background-image: linear-gradient(0deg, #ffffff 0%, #bebfbe 100%);
+  border: 1px solid #ffffff;
+}
+
+.accomodation_item-label {
+  font-size: 12px;
+  color: #25323a;
+  font-family: "Arial";
+}
+
+/*# sourceMappingURL=browse-page.css.map */
